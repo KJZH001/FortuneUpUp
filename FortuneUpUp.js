@@ -315,9 +315,9 @@ function LoadSnackbar(){
 // 加载第二部分: 加载其他JS依赖与IMG依赖
 function LoadDependent(){
   const dependencies = [
-    'https://cdn-js.moeworld.top/gh/Moemu/FortuneUpUp/js/LunarCalendar.js',
-    'https://cdn-js.moeworld.top/gh/Moemu/FortuneUpUp/js/SignboxResultImg.js',
-    'https://cdn-js.moeworld.top/gh/Moemu/FortuneUpUp/images/Signbox.png'
+    'https://cdn-js.moeworld.top/gh/KJZH001/FortuneUpUp/js/LunarCalendar.js',
+    'https://cdn-js.moeworld.top/gh/KJZH001/FortuneUpUp/js/SignboxResultImg.js',
+    'https://cdn-js.moeworld.top/gh/KJZH001/FortuneUpUp/images/Signbox.png'
   ];
 
   Promise.all(dependencies.map(loadDependency))
