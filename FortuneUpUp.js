@@ -299,8 +299,8 @@ function loadDependency(url) {
 // 加载第一部分: 加载Snackbar
 function LoadSnackbar(){
   const Snackbardependencies = [
-    'https://cdn.jsdelivr.net/npm/node-snackbar@latest/src/js/snackbar.min.js',
-    'https://cdn.jsdelivr.net/npm/node-snackbar@latest/dist/snackbar.min.css'
+    'https://cdn-js.moeworld.top/npm/node-snackbar@latest/src/js/snackbar.min.js',
+    'https://cdn-js.moeworld.top/npm/node-snackbar@latest/dist/snackbar.min.css'
   ];
 
   Promise.all(Snackbardependencies.map(loadDependency))
@@ -315,9 +315,9 @@ function LoadSnackbar(){
 // 加载第二部分: 加载其他JS依赖与IMG依赖
 function LoadDependent(){
   const dependencies = [
-    'https://cdn.jsdelivr.net/gh/Moemu/FortuneUpUp/js/LunarCalendar.js',
-    'https://cdn.jsdelivr.net/gh/Moemu/FortuneUpUp/js/SignboxResultImg.js',
-    'https://cdn.jsdelivr.net/gh/Moemu/FortuneUpUp/images/Signbox.png'
+    'https://cdn-js.moeworld.top/gh/Moemu/FortuneUpUp/js/LunarCalendar.js',
+    'https://cdn-js.moeworld.top/gh/Moemu/FortuneUpUp/js/SignboxResultImg.js',
+    'https://cdn-js.moeworld.top/gh/Moemu/FortuneUpUp/images/Signbox.png'
   ];
 
   Promise.all(dependencies.map(loadDependency))
