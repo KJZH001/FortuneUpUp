@@ -8,7 +8,7 @@
     display: block;
     margin: 0 auto;
     transform: scale(0.75);
-    z-index: 8;
+    z-index: 28;
 }
 #SignboxResult{
     position: fixed;
@@ -21,7 +21,7 @@
     position: fixed;
     width: 100%;
     height: 100%;
-    z-index: 6;
+    z-index: 26;
 }
 #SignboxResultImg{
     position: absolute;
