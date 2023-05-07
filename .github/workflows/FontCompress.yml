@@ -15,7 +15,7 @@ jobs:
     steps:
       - name: 检查代码/Checkout Code
         uses: actions/checkout@v2
-      - name: Install SSH
+      - name: 安装SSH工具/Install SSH
         run: sudo apt-get update && sudo apt-get install -y openssh-client
       - name: 配置SSH秘钥/Set up SSH key
         run: |
