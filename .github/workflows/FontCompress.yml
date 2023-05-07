@@ -49,4 +49,4 @@ jobs:
           git config --global user.email "noreply@github.com"
           git add .
           git commit -m "[Font Compress] ${{ github.event.head_commit.message }}"
-          git push git@github.com:Moemu/FortuneUpUp.git HEAD:main
+          git push git@github.com:KJZH001/FortuneUpUp.git HEAD:main
