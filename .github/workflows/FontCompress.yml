@@ -45,7 +45,7 @@ jobs:
           cp XiaolaiSC-Regular.ttf FontCompress/XiaolaiSC-Regular.ttf
       - name: Compress Fonts
         working-directory: FontCompress
-        run: python font/Compress.py
+        run: python Compress.py
       - name: Git push
         working-directory: FontCompress
         run: |
