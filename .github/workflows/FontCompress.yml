@@ -44,11 +44,8 @@ jobs:
           cp main/FortuneUpUp.js FontCompress/FortuneUpUp.js
           cp XiaolaiSC-Regular.ttf FontCompress/XiaolaiSC-Regular.ttf
       - name: Compress Fonts
+        working-directory: FontCompress
         run: python font/Compress.py
-      - name: Clean Up
-        run: |
-          rm -rf XiaolaiSC-Regular.ttf
-          rm -rf text_set.txt
       - name: Git push
         working-directory: FontCompress
         run: |
