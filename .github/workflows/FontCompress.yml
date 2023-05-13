@@ -2,8 +2,6 @@ name: Font Subsetting and Compression
 
 on:
   push:
-    branches:
-      - main
     paths:
       - 'FortuneUpUp.js'
 
