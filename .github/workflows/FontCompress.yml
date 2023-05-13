@@ -46,6 +46,11 @@ jobs:
       - name: Compress Fonts
         working-directory: FontCompress
         run: python Compress.py
+      - name: Clean Up
+        working-directory: FontCompress
+        run: |
+          rm XiaolaiSC-Regular.ttf
+          rm FortuneUpUp.js
       - name: Git push
         working-directory: FontCompress
         run: |
