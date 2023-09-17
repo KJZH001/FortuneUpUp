@@ -41,7 +41,7 @@ window.onload = function(){
 
 # ⚒️自定义⚒️
 
-我们鼓励用户folk此repo以自定义自己的FourtuneUpUp页面。
+我们鼓励用户fork此repo以自定义自己的FourtuneUpUp页面。
 
 如果您对JavaScript不熟悉，那么本内容可能对您有所帮助。
 
